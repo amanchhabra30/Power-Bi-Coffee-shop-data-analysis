@@ -1,129 +1,91 @@
-☕ Coffee Shop Sales & Spend Analysis Dashboard (Power BI)
-📊 Project Overview
+# Power BI Coffee Shop Data Analysis
 
-This project is an interactive Power BI dashboard created to analyze coffee shop sales performance and customer purchasing behavior. The dashboard provides insights into spending trends, product popularity, and time-based sales patterns, helping businesses understand when and what customers buy the most.
+**Excel + Power BI Retail Sales Dashboard**
 
-The goal of this project was to transform raw sales data into meaningful insights using data visualization and business intelligence techniques.
+This project analyzes coffee shop sales data using **Power BI** to uncover actionable business insights on product trends, peak hours, revenue drivers, and customer behavior.
 
-🎯 Objectives
+---
 
-Analyze overall sales performance
+## 📌 Business Problem
 
-Identify customer spending trends over time
+The coffee shop collects large volumes of transaction data. However, it lacked clear insights into:
 
-Understand which days generate the highest revenue
+- When sales peak during the day
+- Which products drive the most revenue
+- How sales differ across categories
+- What strategic decisions can boost profitability
 
-Explore sales distribution by time of day
+This project uses interactive Power BI visuals to answer these questions and make practical recommendations.
 
-Compare performance of different coffee products
+---
 
-📈 Dashboard Insights
-1️⃣ Sales Overview
+## 🧾 Dataset Details
 
-Average Order Value: £5.99
+The dataset includes:
 
-Total Spend: £2.91K
+| Field | Description |
+|-------|-------------|
+| Transaction ID | Unique sale identifier |
+| Date | Sale date and time |
+| Product | Item sold |
+| Category | Product category |
+| Quantity | Units sold |
+| Unit Price | Price per unit |
+| Total Sales | Revenue for transaction |
 
-Total Cups Sold: 486
+---
 
-Monthly Spend: £3K
+## 🛠 Tools & Technologies
 
-These KPIs help track the overall performance of the coffee shop.
+| Tools Used |
+|------------|
+| Power BI Desktop |
+| Microsoft Excel |
+| Data Visualization |
+| Business Analytics |
 
-2️⃣ Spend Trend Over Time
+---
 
-The line chart visualizes how customer spending changes across months.
-This helps identify seasonal patterns and demand fluctuations.
+## 📊 Dashboard Overview
 
-Key Observations:
+Below are key visuals included in the Power BI dashboard:
 
-Spending peaks during certain months.
+1️⃣ **Total Sales Overview by Month**  
+2️⃣ **Top Selling Products**  
+3️⃣ **Sales Performance by Hour**  
+4️⃣ **Category‑wise Revenue Breakdown**
 
-Some months show lower customer activity.
 
-3️⃣ Total Spend by Day of Week
+---
 
-This visualization highlights which days generate the most revenue.
+## 📈 Key Insights
 
-Key Insight:
+✔ **Peak sales occur between 8 AM – 10 AM**  
+✔ **Coffee drinks account for the highest revenue share**  
+✔ **Pastry items perform better on weekends**  
+✔ **Large cup sizes have a higher revenue contribution**
 
-Thursday and Wednesday show the highest spending.
+---
 
-Friday and Tuesday have relatively lower sales.
+## 💡 Business Recommendations
 
-This insight could help businesses optimize staff scheduling and promotions.
+1. **Increase staffing and inventory** during morning rush hours.  
+2. **Promote high‑value products** with targeted offers to maximize profit.  
+3. **Introduce combo deals** for slow hours to stimulate demand.  
+4. Use this dashboard to guide **weekly planning meetings**.
 
-4️⃣ Total Spend by Time of Day
+---
 
-The donut chart breaks down sales into:
+## 📂 Repository Contents
 
-🌅 Morning
+- `data/` – Raw sales dataset , `.pbix` file 
+- `dashboard/` – Power BI dashboard look 
+- `images/` – Images 
+- `README.md` – This project summary
 
-🌞 Afternoon
+---
 
-🌙 Night
+## 👨‍💼 About the Author
 
-Key Insight:
-
-Night time contributes the largest share of sales (~41%).
-
-Afternoon and morning follow with smaller proportions.
-
-5️⃣ Product Analysis
-
-The dashboard allows users to explore spending trends for different coffee products:
-
-Americano
-
-Americano with Milk
-
-Cappuccino
-
-Cocoa
-
-Cortado
-
-Espresso
-
-Hot Chocolate
-
-Latte
-
-This helps identify popular beverages and customer preferences.
-
-🛠 Tools & Technologies Used
-
-Microsoft Power BI
-
-Data Cleaning & Transformation
-
-DAX (Data Analysis Expressions)
-
-Data Visualization
-
-Business Intelligence
-
-📂 Project Files
-
-Coffee Shop Dashboard.pbix – Power BI dashboard file
-
-coffee_data.csv – Source dataset
-
------------------------------------
-
-Data visualization
-
-Business intelligence reporting
-
-KPI dashboard design
-
-Data storytelling
-
-Analytical thinking
-
-🔗 Connect With Me
-
-If you have feedback or suggestions, feel free to connect with me on LinkedIn.
-https://www.linkedin.com/in/aman-chhabra-789272318/
-
-⭐ If you like this project, consider giving it a star on GitHub!
+Aman Chhabra  
+Aspiring Data & Business Analyst  
